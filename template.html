@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      style="
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #ececec;
+      "
+    >
+      <div style="background-color: blue; font-size: 14px; padding: 10px 0px">
+        <p style="font-size: 14px; text-align: center">VERIFICACION CODE</p>
+      </div>
+      <p style="background-color: #fff; padding: 30px 20px; text-align: center">
+        Hola ${nombre} Tu codigo de verificacion es:
+        <a href="http://localhost/mail-verification?token=${randomToken}"></a>
+      </p>
+    </div>
+  </body>
+</html>
